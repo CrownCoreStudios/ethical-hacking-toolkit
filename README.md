@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+![Build Status](https://github.com/CrownCoreStudios/ethical-hacking-toolkit/actions/workflows/python-package.yml/badge.svg)
+![Coverage](https://codecov.io/gh/CrownCoreStudios/ethical-hacking-toolkit/branch/master/graph/badge.svg)
+![GitHub stars](https://img.shields.io/github/stars/CrownCoreStudios/ethical-hacking-toolkit?style=social)
 
 A comprehensive, open-source toolkit for ethical hacking, penetration testing, and security analysis. This collection of Python scripts provides security professionals with powerful tools for network analysis, vulnerability assessment, reverse engineering, and digital forensics.
 
