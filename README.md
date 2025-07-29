@@ -28,7 +28,7 @@ A comprehensive, open-source toolkit for ethical hacking, penetration testing, a
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ethical-hacking-toolkit.git
+   git clone https://github.com/CrownCoreStudios/ethical-hacking-toolkit.git
    cd ethical-hacking-toolkit
    ```
 
