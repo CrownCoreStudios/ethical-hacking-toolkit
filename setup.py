@@ -1,0 +1,60 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setup(
+    name="ethical-hacking-toolkit",
+    version="0.1.0",
+    author="Your Name",
+    author_email="your.email@example.com",
+    description="A comprehensive toolkit for ethical hacking and security analysis",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/yourusername/ethical-hacking-toolkit",
+    packages=find_packages(),
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: System Administrators",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Operating System :: OS Independent",
+        "Topic :: Security",
+        "Topic :: System :: Systems Administration",
+        "Topic :: Utilities",
+    ],
+    python_requires=">=3.8",
+    install_requires=[
+        "colorama>=0.4.6",
+        "scapy>=2.6.1",
+        "requests>=2.28.2",
+        "pefile>=2023.2.7",
+        "beautifulsoup4>=4.12.2",
+        "psutil>=5.9.4",
+        "capstone>=5.0.0",
+        "pyshark>=0.4.3",
+        "python-nmap>=0.7.1",
+        "volatility3>=2.4.0",
+        "peutils>=1.2.0",
+        "python-magic>=0.4.27",
+        "python-whois>=0.8.0",
+        "scapy-http>=1.8.2",
+        "requests-html>=0.10.0",
+        "keystone-engine>=0.9.2",
+        "unicorn>=2.0.1",
+        "pandas>=1.5.3",
+        "rich>=13.3.5",
+        "python-dotenv>=1.0.0",
+        "PyQt5>=5.15.9",
+    ],
+    entry_points={
+        "console_scripts": [
+            "ehtoolkit=cli:main",
+        ],
+    },
+    include_package_data=True,
+)
